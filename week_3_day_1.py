@@ -50,27 +50,27 @@
 # # Review
 # create variables for the following :
 # 1. age
-age=16
-# 2. name
-name="nathan denis"
-# 3. song
-song="can we be friends?"
-# 4. food
-food="steak tacos"
-# 5. number
-number=1000000
+# age=16
+# # 2. name
+# name="nathan denis"
+# # 3. song
+# song="can we be friends?"
+# # 4. food
+# food="steak tacos"
+# # 5. number
+# number=1000000
 
-# #now include the variables you just made print in the following...
+# # #now include the variables you just made print in the following...
 
 
-# Once upon a time, there was a [age] old coder named [name].
-print("once upon a time there was a " + str(age) + " old coder named " + name )
+# # Once upon a time, there was a [age] old coder named [name].
+# print("once upon a time there was a " + str(age) + " old coder named " + name )
 
-# [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-print(name + " liked to hum the song "+ song +" while coding.  It was so annoying, that their teammates would throw " + food +" until " + name + " would stop")
+# # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
+# print(name + " liked to hum the song "+ song +" while coding.  It was so annoying, that their teammates would throw " + food +" until " + name + " would stop")
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
-print(f"Still,{name} was the best coder on the team and could write {number} lines of code every day.  Maybe {song} was {name}'s secret power")
+# # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# print(f"Still,{name} was the best coder on the team and could write {number} lines of code every day.  Maybe {song} was {name}'s secret power")
 
 
 ##########################################################################################
@@ -178,20 +178,35 @@ print(f"Still,{name} was the best coder on the team and could write {number} lin
 
 ##########################################################################################
 # #addition
+print(2+2) # adds 2 numbers
 # #multiplication
+print(2*2) # multiplies 2 numbers
 # #division
+print(4/2) # divides 2 numbers 
 # #modulo
+print(2%2)
 # #powers
+print(2**2)
 # #get the max and min of a number
+print(max(2,3))
+print(min(2,3))
 # #round a number
+print(round(2.5))
 # # absolute value
+print(abs(-2))
 # # order of operations
-# #to do more you need to import special math libraries from python
-# #from math import *    
+print(2 + 10 *10  + 3)
+# to do more you need to import special math libraries from python
+from math import *    
 # #this goes out and grabs some different math functions we can use
 # #floor method
+print(floor(3.7))
+print(floor(3.9))
 # #ceil method
+print(ceil(3.7))
+print(ceil(3.3))
 # #sqrt method
+print(sqrt(36))
 
 
 
