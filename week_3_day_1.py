@@ -178,35 +178,35 @@
 
 ##########################################################################################
 # #addition
-print(2+2) # adds 2 numbers
-# #multiplication
-print(2*2) # multiplies 2 numbers
-# #division
-print(4/2) # divides 2 numbers 
-# #modulo
-print(2%2)
-# #powers
-print(2**2)
-# #get the max and min of a number
-print(max(2,3))
-print(min(2,3))
-# #round a number
-print(round(2.5))
-# # absolute value
-print(abs(-2))
-# # order of operations
-print(2 + 10 *10  + 3)
-# to do more you need to import special math libraries from python
-from math import *    
-# #this goes out and grabs some different math functions we can use
-# #floor method
-print(floor(3.7))
-print(floor(3.9))
-# #ceil method
-print(ceil(3.7))
-print(ceil(3.3))
-# #sqrt method
-print(sqrt(36))
+# print(2+2) # adds 2 numbers
+# # #multiplication
+# print(2*2) # multiplies 2 numbers
+# # #division
+# print(4/2) # divides 2 numbers 
+# # #modulo
+# print(2%2)
+# # #powers
+# print(2**2)
+# # #get the max and min of a number
+# print(max(2,3))
+# print(min(2,3))
+# # #round a number
+# print(round(2.5))
+# # # absolute value
+# print(abs(-2))
+# # # order of operations
+# print(2 + 10 *10  + 3)
+# # to do more you need to import special math libraries from python
+# from math import *    
+# # #this goes out and grabs some different math functions we can use
+# # #floor method
+# print(floor(3.7))
+# print(floor(3.9))
+# # #ceil method
+# print(ceil(3.7))
+# print(ceil(3.3))
+# # #sqrt method
+# print(sqrt(36))
 
 
 
@@ -235,13 +235,20 @@ print(sqrt(36))
 # # find the remainder of the numbers
 # #round one number
 
+name=input("name:")
 
+print("hello " + name)
 
+print("this is a calulator")
 
-
-
-
-
+num_1=int(input("what is your first number:"))
+num_2= int(input("what is your second number:"))
+print("addition: " +str( num_1 + num_2))
+print("multiplication: " +str( num_1 * num_2))
+print("divison: " +str( num_1 / num_2))
+print("max: " +str(max(num_1,num_2) ))
+print("remainder: " + str(num_1 % num_2))
+print("round: " + str(round(num_1)) + ", " + str( round(num_2)))
 ##########################################################################################
 # # mad libs game
 # print("Roses are {color}")
