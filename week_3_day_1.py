@@ -109,14 +109,18 @@ print(f"Still,{name} was the best coder on the team and could write {number} lin
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
-# Creating Valid Names: Create valid names for the following descriptions:
+# # 1st_name
+# first_name="nathan"
+# # last name
+# last_name="Denis"
+# # email@address
+# email_adress="ndenis@cps.edu"
+# # variable#name
+# variable_name
+# # O
+# zero=zero
+# # list
+# # Creating Valid Names: Create valid names for the following descriptions:
 
 
 # The first name of a person
@@ -132,14 +136,14 @@ print(f"Still,{name} was the best coder on the team and could write {number} lin
 
 
 # first_name
-# lastName
+# last_name
 # email_address
 # percentage
 # variable_name
-# 1_variable
-# email@address
-# percentage%
-# i
+# first_varible 
+# email_adress
+# percent
+# illnois 
 
 
 
